@@ -3,7 +3,7 @@ name: Generate package-lock.json
 on:
   push:
     branches:
-      - master
+      - temp
 
 jobs:
   generate-lockfile:
