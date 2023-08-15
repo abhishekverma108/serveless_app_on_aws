@@ -23,6 +23,6 @@ jobs:
         npm prune
     - name: build
       run: |
-        npm i
+        #npm i
         npm run build --if-present
         npm test
